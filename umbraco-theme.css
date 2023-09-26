@@ -1,0 +1,228 @@
+/*!
+ * Marp copy of the Umbraco slide template (with liberties taken)
+ *
+ * @theme umbraco-theme
+ * @author Joe Glombek
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ */
+
+@import 'uncover';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import './fontawesome-pro-5.15.4-web/css/all.css';
+
+:root {
+    --color-pink:#F5EFEB; /* Should be #f2ebe6, adjusted for contrast */
+    --color-dark-pink: #F4C0BB;
+    --color-blue: #3544b1;
+    --color-navy: #1b264f;
+    --color-yellow: #f9d633;
+    --color-light-blue: #0192D5; /* Should be #0195d9, adjusted for contrast */
+    --color-orange: #CE7209; /* Should be #f79c36, adjusted for contrast */
+    --color-brown: #9d8157;
+
+    /* --color-image-overlay: rgba(27,38,79, 0.42); */
+    --color-image-overlay: rgba(27,38,79, 0.60);
+
+    --font-size-body: 32px;
+
+    --font-header: Lato;
+    --font-body: 'Atkinson Hyperlegible';
+
+    font-family: var(--font-body);
+}
+
+section {
+
+    --color-background: var(--color-pink);
+    --color-background-code: var(--color-navy);
+    --color-foreground-code: var(--color-dark-pink);
+    /* --color-background-paginate: #{rgba($text, 0.05)}; */
+    --color-foreground: black;
+    
+    --color-highlight: var(--color-blue);
+    --color-highlight-hover: var(--color-light-blue);
+    --color-highlight-heading: var(--color-orange);
+    --color-header: var(--color-blue);
+    /* --color-header-shadow: #{rgba($bg, 0.8)}; */
+
+    --color-heading: var(--color-blue);
+
+    --color-highlight-1: var(--color-light-blue);
+    --color-highlight-2: var(--color-orange);
+    --color-highlight-3: var(--color-blue);
+    --color-highlight-4: var(--color-brown);
+
+    /* background: var(--color-pink); */
+    text-align: left;
+    letter-spacing: unset;
+
+    font-size: var(--font-size-body);
+
+    background-image: url(images/bg-light.svg);
+
+    /* padding: 30px 130px 30px 70px; */
+    padding: 30px 70px;
+}
+
+section[data-marpit-advanced-background-split] {
+    padding: 30px 70px;
+}
+
+section[data-marpit-advanced-background=content]:not([data-marpit-advanced-background-split]), section.invert
+{
+
+    --color-light-blue: #0195d9; /* reset to correct color on inverted screens */
+    --color-orange: #f79c36; /* reset to correct color on inverted screens */
+
+
+    --color-background: var(--color-navy);
+    
+    --color-background-code: var(--color-pink);
+    --color-foreground-code: var(--color-navy);
+
+    /*--color-background-paginate: #{rgba($text, 0.05)}; */
+    --color-foreground: white;
+    --color-highlight: var(--color-light-blue);
+    --color-highlight-hover: var(--color-pink);
+     /*--color-highlight-hover: #{color.mix($text, $highlight, 25%)};
+    --color-highlight-heading: #{color.mix(#fff, $highlight, 20%)}; */
+    --color-header: white;
+    /* --color-header-shadow: #{rgba($bg, 0.8)}; */
+
+    --color-heading: white;
+
+    --color-highlight-1: var(--color-light-blue);
+    --color-highlight-2: var(--color-orange);
+    --color-highlight-3: var(--color-yellow);
+    --color-highlight-4: var(--color-pink);
+
+    background-image: none;
+}
+section[data-marpit-advanced-background=content][data-marpit-advanced-background=content][data-marpit-advanced-background=content]:not([data-marpit-advanced-background-split])
+{
+    background: var(--color-image-overlay)!important;
+
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-heading);
+    font-family: var(--font-header);
+    letter-spacing: unset;
+}
+
+h1 small, h2 small {
+    font-weight: normal;
+    font-size: 0.8rem;
+    display: block;
+    color: var(--color-foreground);
+    line-height: 0em;
+    font-family: var(--font-body);
+
+}
+
+
+ul {
+    margin-left: 0;
+}
+
+ul:has(li > i:first-child) {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+ul li:has(> i:first-child) {
+    display: block;
+    padding-left: 1.5em;
+}
+
+ul li > i:first-child {
+    --icon-scale: 0.75;
+    --icon-scale-i: calc(1/var(--icon-scale));
+    
+    margin-left: calc(-1.5em * var(--icon-scale-i));
+    padding: 0 calc(((1.5em * var(--icon-scale-i)) - 1.25em) / 2);
+
+    font-size: calc(1em * var(--icon-scale));
+}
+
+ul li:has(> i:first-child) strong {
+    font-weight: normal;
+}
+
+ul li:has(> i:first-child) a:has(strong) {
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul li:has(> i:first-child):nth-child(4n + 1) i,
+ul li:has(> i:first-child):nth-child(4n + 1) strong
+{
+    color: var(--color-highlight-1);
+}
+
+ul li:has(> i:first-child):nth-child(4n + 2) i,
+ul li:has(> i:first-child):nth-child(4n + 2) strong
+{
+    color: var(--color-highlight-2);
+}
+
+ul li:has(> i:first-child):nth-child(4n + 3) i,
+ul li:has(> i:first-child):nth-child(4n + 3) strong
+{
+    color: var(--color-highlight-3);
+}
+
+ul li:has(> i:first-child):nth-child(4n + 4) i,
+ul li:has(> i:first-child):nth-child(4n + 4) strong
+{
+    color: var(--color-highlight-4);
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-bottom: 1rem;
+}
+
+section:not([data-marpit-advanced-background]) > p,
+section:not([data-marpit-advanced-background]) > blockquote,
+section:not([data-marpit-advanced-background]) > ul,
+section:not([data-marpit-advanced-background]) > ol {
+    /* Avoid overlapping the bg image */
+    margin-right: 65px;
+}
+
+code, marp-pre, pre {
+    --color-foreground: var(--color-foreground-code);
+}
+
+marp-pre, pre {
+    font-size: 1em;
+    --preserve-aspect-ratio: unset;
+}
+
+a {
+    text-decoration: underline;
+}
+
+[data-bespoke-marp-fragment] {
+
+}
+
+[data-bespoke-marp-fragment="inactive"] {
+    transition: opacity linear .3s,
+                visibility 0s .3s;
+    opacity: 0;
+}
+
+[data-bespoke-marp-fragment="active"] {
+        transition: opacity linear .7s;
+    opacity: 1;
+}
