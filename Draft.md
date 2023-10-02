@@ -45,10 +45,10 @@ Since the dawn of Forums, CodeProject and Stack Overflow - and more recently wit
 
 ## Professional googlers
 
-![bg left:60%](images/surfing-the-web.png)
-
+<!-- ![bg left:40%](images/surfing-the-web.png) -->
+![bg](images/surfing-the-web-bg.png)
 <!--
-_footer: '"Surfing the web?" - Created with DALL-E'
+_footer: '"Surfing the web?" - Created with Stable Diffusion and DALL-E'
 -->
 
 <!--
@@ -67,7 +67,7 @@ _footer: Emma Burstow on Umbraco collaboration: [go.joe.gl/yt-collab-joe-paul](h
 
 ## We're not **competitors**, we're a **community**
 
-![bg right:45%](/images/joe-and-paul.jpg)
+![bg right:45%](images/joe-and-paul.jpg)
 
 <!-- 
 This photo is from after a Umbraco festival in the UK, when me and Paul (from Codeshare, creater of the Clean Starter Kit) went back to our hotel.
@@ -256,11 +256,11 @@ Reproducible example: Provided Umbraco version, media picker version, exact setu
 
 This is someone's first StackOverflow question - it's not necessarily a **bad** question, but we could improve it.
 
-![Title: "Implement SSO in ASP.NET MVC" Question: "How to implement a website with a list of application content, you can log in once on the first website and when you want to go to the second website, you don't need to log in again using ASP.NET MVC 5. I tried throwing params into the database and with this I was able to log in to other websites with just 1 login."](/images/question.png)
+![Title: "Implement SSO in ASP.NET MVC" Question: "How to implement a website with a list of application content, you can log in once on the first website and when you want to go to the second website, you don't need to log in again using ASP.NET MVC 5. I tried throwing params into the database and with this I was able to log in to other websites with just 1 login."](images/question.png)
 
 ---
 
-![Title: "Implement SSO in ASP.NET MVC" Question: "How to implement a website with a list of application content, you can log in once on the first website and when you want to go to the second website, you don't need to log in again using ASP.NET MVC 5. I tried throwing params into the database and with this I was able to log in to other websites with just 1 login."](/images/question.png)
+![Title: "Implement SSO in ASP.NET MVC" Question: "How to implement a website with a list of application content, you can log in once on the first website and when you want to go to the second website, you don't need to log in again using ASP.NET MVC 5. I tried throwing params into the database and with this I was able to log in to other websites with just 1 login."](images/question.png)
 
 * <i class="fa-fw fad fa-search"></i>**Research:** None clear. Did they already search for solutions? Why was this not suitable?
 * <i class="fa-fw fad fa-head-side-brain"></i>**Comprehend:** Doesn't grasp key concepts of SSO
@@ -298,7 +298,7 @@ AI is an other place we can ask questions for help.
 * <i class="fa-fw fad fa-medal"></i>You need **the same skills** to effectively use AI as for human-generated answers
 
 
-![bg right:30% 90% Animation of The Simpsons newsreader Kent Brockman on TV captioned "I, for one, welcome our new robot overlords.". The word "robot" is clearly superimposed.](/images/robot-overlords.gif)
+![bg right:30% 90% Animation of The Simpsons newsreader Kent Brockman on TV captioned "I, for one, welcome our new robot overlords.". The word "robot" is clearly superimposed.](images/robot-overlords.gif)
 
 <!-- We've been talking a lot about community and collaboration - so why am I brining up artificial intelligence? Is it because I want this talk to sound topical and modern? Well... yes. But only in part!
 
@@ -370,7 +370,7 @@ We've established AI can be wrong.
 
 ## Assess Suitability of Code
 
-![bg](/images/magnifying-glass.jpg)
+![bg](images/magnifying-glass.jpg)
 
 <!-- _footer: 'Photo by [Agence Olloweb](https://unsplash.com/@olloweb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash' -->
 ---
@@ -383,7 +383,7 @@ We've established AI can be wrong.
 * Does that _feel_ right?
 * How can we increase our confidence in this answer?
 
-![bg right fit](/images/chatgpt-luminance.png)
+![bg right fit](images/chatgpt-luminance.png)
 
 
 <!--
@@ -418,7 +418,7 @@ I can also check luminance is
 
 > The programmer would sit down [...] and manually follow the value of a variable to check that it was used and updated as expected
 
-![bg right:40%](/images/desert-run.jpg)
+![bg right:40%](images/desert-run.jpg)
 
 <!-- 
 _footer: '[BBC Bitesize: Dry run - Testing - Higher Computer Science](https://www.bbc.co.uk/bitesize/guides/zg4j7ty/revision/3)
@@ -461,7 +461,7 @@ luminance ≈ (0.2 * 27) + (0.7 * 38) + (0.1 * 79)
 result = "#FFFFFF"
 ```
 
-![bg left fit](/images/chatgpt-luminance.png)
+![bg left fit](images/chatgpt-luminance.png)
 
 ---
 
