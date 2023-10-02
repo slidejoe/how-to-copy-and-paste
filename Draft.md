@@ -22,6 +22,8 @@ Effectively working with strangers on the internet
 
 <!-- Awkwardly highlight the "copy & paste" joke -->
 
+<!-- _footer: Joe Glombek -->
+
 ---
 <!-- _class: invert -->
 
@@ -41,13 +43,21 @@ Since the dawn of Forums, CodeProject and Stack Overflow - and more recently wit
 
 ---
 
-## Professional googling
+## Professional googlers
 
+![bg left:60%](images/surfing-the-web.png)
+
+<!--
+_footer: '"Surfing the web?" - Created with DALL-E'
+-->
+
+<!--
 We've all heard that software developers are just "professional Googlers" - the more senior you are is mostly a product of how good you are at Googling.
 
 It's a great joke... but have you tried being a developer _without_ internet access? It doesn't feel like much of a joke then, does it?
 
 But I don't see this as a negative. When we're isolated we might feel weak and hopeless but as a team - a community - we're quick and efficient problem solvers. And that's where the idea for this talk came from: how can we work together more effectively as a worldwide developer community without getting stung along the way?
+-->
 
 ---
 <!--
@@ -82,7 +92,7 @@ So we shouldn't be afraid to ask for help, and to offer our expertise to others.
 * <i class="fa-fw fad fa-blog"></i>Blog posts
   Personal blog, **Skrift**, etc
 * <i class="fa-fw fad fa-code"></i>Source code
-
+* <i class="fa-fw fad fa-question-square"></i>Existing answers to other people's questions 
 
 
 ![bg right:41%](https://assets-global.website-files.com/5f3c19f18169b62a0d0bf387/60d33bee9c10a5689cd5e64a_qPOubJQVFNBuF_cDqEwbRTw1cI-9dKzoZ8o18D2XtiOgi4pmoMudEBbHcICtDhwBZSY71CKKqOaaWPnkycOU-w24UtOo5M-z-lul9v78JvvUrHKbaKRHHIpE6Tx5WkALe5tIYnaK.png)
@@ -92,19 +102,70 @@ So we shouldn't be afraid to ask for help, and to offer our expertise to others.
 ---
 
 ### So you need to ask for help?
+If you can't find the answer you're looking for, it's time to ask for help.
 
-* <i class="fa-fw fab fa-stack-overflow"></i>StackOverflow - good for more generic development questions
-* <i class="fa-fw fab fa-github"></i>Github? - some repositories have discussions or issues may be appropriate
-* <i class="fa-fw fab fa-umbraco"></i>Umbraco Forum - specific to Umbraco
-* <i class="fa-fw fab fa-discord"></i>Discord - specific to Umbraco
+* <i class="fa-fw fab fa-stack-overflow"></i>StackOverflow
+* <i class="fa-fw fab fa-github"></i>Github?
+* <i class="fa-fw fab fa-umbraco"></i>Umbraco Forum
+* <i class="fa-fw fab fa-discord"></i>Discord
 * <i class="fa-fw fab fa-mastodon"></i>Mastodon/X/Facebook
-<!-- * <i class="fa-fw fad fa-robot"></i>AI -->
+
+<!--
+StackOverflow - good for more generic development questions
+Github? - some repositories have discussions or issues may be appropriate
+Umbraco Forum - specific to Umbraco
+Discord - specific to Umbraco
+Mastodon/X/Facebook
+-->
+
+---
+
+<!--
+_header: '⚠️ Shameless Mastodon Plug'
+-->
+
+<!--
+Shameless Mastodon Plug
+
+There's a strong contingent of the Umbraco Community now using **Mastodon** in place of Twitter/X.
+
+94 active users as of yesterday
++ users on other servers
+
+Already on masto? Directory
+
+Want to join the community masto? Link
+-->
+
+![bg right:40%](images/fediverse-unicorn.jpeg)
+
+## Umbraco Community on Mastodon
+
+- <i class="fad fa-fw fa-users"></i>**94** active users
+- <i class="fad fa-fw fa-search"></i>[**umbracocommunity.social**/directory](https://umbracocommunity.social/directory)
+- <i class="fad fa-fw fa-sign-in"></i>[**umbracocommunity.social**/auth/sign_up](https://umbracocommunity.social/auth/sign_up)
+- &nbsp;
+- <i class="fab fa-fw fa-mastodon"></i>Find me: [umbracocommunity.social/**@joe**](https://umbracocommunity.social/@joe)
+
+---
+
+<iframe src="https://umbracocommunity.social/@loranallensmith/111162470637682139/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://umbracocommunity.social/embed.js" async="async"></script>
+
+<!--
+_footer: '</ Shameless Mastodon Plug>'
+-->
 
 ---
 
 ## *How* to ask for help
 
 How can we ask for help in a way that's most likely to get the best possible answer?
+
+<!--
+How can we ask for help in a way that's most likely to get the best possible answer?
+
+Although the community is very helpful, it't to our own benefit to ask the right questions in the right places.
+-->
 
 * <i class="fa-fw fad fa-search"></i>Do your research *first*
 * <i class="fa-fw fad fa-head-side-brain"></i>Comprehend the problem
@@ -113,11 +174,53 @@ How can we ask for help in a way that's most likely to get the best possible ans
 * <i class="fa-fw fad fa-clipboard-list"></i>Summarize your problem
 * <i class="fa-fw fad fa-code"></i>[Include a reproducible example](https://stackoverflow.com/help/minimal-reproducible-example)
 
-<!-- We know this is good advice, because it's from StackOverflow. And if anybody is fussy about how you ask a question, it's them! -->
+<!-- 
+
+Do your research *first* 
+Although you've already searched for an answer to your question, it's also important we do some background research so we can explain ourselves correctly and be very specific about our problem.
+
+Comprehend the problem
+There's very little point in asking a question if we don't know what we're asking. If we don't understand what we're asking we need to ask a different question
+
+Be polite and patient - nobody _has_ to help you
+
+On-topic and suitable (including tags, categories, etc)
+
+Summarize your problem
+
+Include a reproducible example
+
+---
+
+We know this is good advice, because it's from StackOverflow. And if anybody is fussy about how you ask a question, it's them! -->
 
 <!-- _footer: https://stackoverflow.com/help/how-to-ask -->
 
 ---
+
+
+### What to ask where
+Some questions lend themselves to specific environments.
+
+* <i class="fa-fw fad fa-comments-alt"></i>Vague or conceptual question, hand holding
+  * > How might I go about implementing a...?
+  * Suited to a chat format, like Discord
+* <i class="fa-fw fad fa-poll"></i>Opinionated or niche question
+  * > Which is more performant...?
+  * Get a quorum by asking on social media
+* <i class="fa-fw fad fa-align-left"></i>Technical or specific question
+  * > I'm trying to do this by ... but I'm getting an error...
+  * A forum might be better suited, Our Umbraco or StackOverflow
+
+<!--
+
+Discord - one person can ask questions to help work out what you need
+Social media - lots of people can chime in with their opinions and experiences
+Forum - tend to be longer questions with longer answers
+-->
+
+---
+
 <!-- _footer: https://discord-chats.umbraco.com/t/15854045/solved-backoffice-in-block-list-show-image-name-in-label -->
 ### Let's look at an example
 
@@ -128,9 +231,10 @@ How can we ask for help in a way that's most likely to get the best possible ans
 Do your research: Read my blog post
 Understand the problem:
 Be polite: Flattery will get you everywhere! Friendly, sociable, "TIA"
-On topic & suitable: Umbraco Discord, help-with-umbraco channel
+On topic & suitable: Umbraco Discord, help-with-umbraco channel, hoping for a quick, short reply (it actually helped us chat it over and try things out without me needing to replicate)
 Summarize your problem: Pictures! "I would like to..."
 Reproducible example: Provided Umbraco version, media picker version, exact setup - I could do this!
+
 -->
 
 <!-- ---
@@ -187,6 +291,8 @@ How might we fix this?
 
 ## What about **AI**?
 
+AI is an other place we can ask questions for help.
+
 * <i class="fa-fw fad fa-mind-share"></i>**Our** programs and **our** code samples
 * <i class="fa-fw fad fa-people-carry"></i>Effectively **built by the community**
 * <i class="fa-fw fad fa-medal"></i>You need **the same skills** to effectively use AI as for human-generated answers
@@ -197,9 +303,6 @@ How might we fix this?
 <!-- We've been talking a lot about community and collaboration - so why am I brining up artificial intelligence? Is it because I want this talk to sound topical and modern? Well... yes. But only in part!
 
 AI has been scouring the internet looking at _our_ programs and _our_ code samples. As I see it, AI is a tool built by the community. And it takes a lot of the same skills to effectively use AI generated code as it does to pick the right Stack Overflow answer. -->
-
-
-<!-- **Introduce AI-powered code assistance tools like GitHub CoPilot and ChatGPT, highlighting their role in code creation and adaptation.** -->
 
 ---
 
@@ -235,16 +338,12 @@ AI has been scouring the internet looking at _our_ programs and _our_ code sampl
   > Write me a regular expression for international phone numbers
   > Don't people in the US often hyphenate their phone numbers?
 * <i class="fa-fw fad fa-hand-holding-magic"></i>Makes things up
+* <i class="fa-fw fad fa-question"></i> It will never ask questions or give options
 
 <!--
 
 Makes things up: AI will rarely tell you that you can't do something. It will generally make up ways you can... even if those ways are not possible and use API methods that simply don't exist.
 -->
-
----
-
-TODO: AI examples
-
 ---
 
 So, you've asked a question and got an answer. Now we need to know...
@@ -261,38 +360,156 @@ We've established AI can be wrong.
 
 ---
 
-## Copy-Pasting vs. Understanding
+## Copy-Pasting vs. Comprehending
 
 * Computer or robot, we need to **understand** what we're copying into our projects.
+* Big indicator of seniority
 * We don't need to understand every intricacy of the code, but we should have an idea line-by-line what it's doing
 
-<!-- **Discuss the importance of understanding copied code versus blindly pasting it, emphasizing the role of comprehension in building better applications.**
+---
 
-**Explore how junior and senior developers approach code copying and adaptation differently, showcasing the importance of experience and expertise.**
+## Assess Suitability of Code
 
-**Discuss the goal of building better applications by improving the way we utilize copied code, emphasizing comprehension and adaptation.** -->
+![bg](/images/magnifying-glass.jpg)
+
+<!-- _footer: 'Photo by [Agence Olloweb](https://unsplash.com/@olloweb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash' -->
+---
+
+## Comprehending & suitability
+
+* Does it answer my question?
+* Line by line, what is this doing?
+* Does the code match the description?
+* Does that _feel_ right?
+* How can we increase our confidence in this answer?
+
+![bg right fit](/images/chatgpt-luminance.png)
+
+
+<!--
+Does it answer my question?
+Read Q and A
+
+Line by line, what is this doing?
+- takes a hex string value
+- splits out R/G/B values
+- converts them from hex to int
+- calculates a "luminance"
+- checks for luminance value (128 = 256/2)
+
+Does the code match the description?
+The code seems to match up with the description
+
+Does that _feel_ right?
+- things I don't fully understand
+- generally somewhat like I was expecting
+- I didn't know the hex conversion function existed, but it seems right
+
+How can we increase our confidence in this answer?
+
+Most useful info: I now know I want to calculate the luminance.
+So now I can go away and validate the luminance formula (which it got right!) and we're away!
+I can also check luminance is 
+-->
 
 ---
 
-TODO Example of complex code sample
+## Dry run testing
+
+> The programmer would sit down [...] and manually follow the value of a variable to check that it was used and updated as expected
+
+![bg right:40%](/images/desert-run.jpg)
+
+<!-- 
+_footer: '[BBC Bitesize: Dry run - Testing - Higher Computer Science](https://www.bbc.co.uk/bitesize/guides/zg4j7ty/revision/3)
+
+Photo by [Jed Villejo](https://unsplash.com/@jmvillejo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash'
+   -->
 
 ---
 
-## Assessing Suitability of Code
+```
+hexColor = "#ffffff"
 
-<!-- - **Discuss the importance of evaluating the suitability of copied code for your specific application.** -->
+r = "ff" = 256
+g = "ff" = 256
+b = "ff" = 256
+
+luminance ≈ (0.2 * 265) + (0.7 * 256) + (0.1 * 256)
+          ≈      53     +     180     +      26
+          ≈ 261
+
+261 > 128
+
+result = "#000000"
+```
+
+
+```
+hexColor = "#1b264f"
+
+r = "1b" = 27
+g = "26" = 38
+b = "4F" = 79
+
+luminance ≈ (0.2 * 27) + (0.7 * 38) + (0.1 * 79)
+          ≈      5    +     27    +      8
+          ≈ 40
+
+40 < 128
+
+result = "#FFFFFF"
+```
+
+![bg left fit](/images/chatgpt-luminance.png)
 
 ---
 
 ## Adapting Code to Meet Needs
 
-<!-- Explain how to effectively modify and tailor copied code to meet your application's requirements -->
+When we understand the code, we can tweak it to our needs
+
+We'd all have a better idea of how to modify the previous example to, for example:
+
+* Enforce accessibility contrast levels
+* Change the resulting colours (not black/white)
+* Extract this method into smaller reusable helper methods
 
 ---
 
 ## Considering Performance in Context
 
-- Title: "Performance Matters: Code Context and Frequency"
-- Discuss the importance of considering performance based on the context and frequency of code execution, highlighting the difference between code running once a day versus code running 100 times per second. 
+* <i class="fa-fw fad fa-tachometer"></i> Do we always want the "most performant" answer?
+* <i class="fa-fw fad fa-brain"></i> Legibility can be more important
+* <i class="fa-fw fad fa-comments-alt"></i>You don't always need to get caught up in a debate about the "best" way to do something
+* <i class="fa-fw fad fa-repeat"></i>Consider performance based on the context and frequency of code execution
+  - code running once a day
+  - code running 100 times per second
+* <i class="fa-fw fad fa-function"></i> Consider the complexity of a solution
+  - loops
+  - nested loops
+  - LINQ
 
--  apply these strategies for more effective code usage and application development.
+---
+
+![bg right:44%](images/52993360181_f7bded0189_k.jpg)
+
+## How to Copy & Paste
+- <i class="fa-fw fad fa-search"></i> **Google** it!
+- <i class="fa-fw fad fa-question"></i> Ask in the best place in the best way
+- <i class="fa-fw fad fa-box"></i> Know **what** and **why** you're asking
+- <i class="fa-fw fad fa-brain"></i> **Understand** and **validate** the answer
+- <i class="fa-fw fad fa-edit"></i> **Adapt** to meet your needs
+
+---
+
+<!-- _class: invert -->
+
+![bg left Joe](images/me.jpg)
+
+## Thank you
+
+Reach out & read more:
+- <i class="fab fa-fw fa-mastodon"></i>[umbracocommunity.social/**@joe**](https://umbracocommunity.social/@joe)
+- <i class="fab fa-fw fa-discord"></i>glombek
+- <i class="fad fa-fw fa-globe"></i>[www.**joe.gl**](https://joe.gl/ombek)

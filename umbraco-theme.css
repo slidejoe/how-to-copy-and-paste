@@ -28,8 +28,8 @@
 
     --font-size-body: 32px;
 
-    --font-header: Lato;
-    --font-body: 'Atkinson Hyperlegible';
+    --font-header: Lato, sans-serif;
+    --font-body: 'Atkinson Hyperlegible', sans-serif;
 
     font-family: var(--font-body);
 }
@@ -223,6 +223,6 @@ a {
 }
 
 [data-bespoke-marp-fragment="active"] {
-        transition: opacity linear .7s;
+    transition: opacity linear .7s;
     opacity: 1;
 }
