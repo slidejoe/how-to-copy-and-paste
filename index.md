@@ -146,7 +146,8 @@ Want to join the community masto? Link
 - <i class="fad fa-fw fa-sign-in"></i>[**umbracocommunity.social**/auth/sign_up](https://umbracocommunity.social/auth/sign_up)
 - &nbsp;
 - <i class="fab fa-fw fa-mastodon"></i>Find me: [umbracocommunity.social/**@joe**](https://umbracocommunity.social/@joe)
-
+- &nbsp;
+- <i class="fad fa-fw fa-newspaper"></i> [**joe.gl**/umbraco-fedi](https://joe.gl/ombek/blog/umbraco-in-the-fediverse/)
 ---
 
 <iframe src="https://umbracocommunity.social/@loranallensmith/111162470637682139/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://umbracocommunity.social/embed.js" async="async"></script>
