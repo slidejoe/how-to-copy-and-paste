@@ -18,7 +18,7 @@ transition: fade .3s
 # How to **Copy & Paste**
 Effectively working with strangers on the internet
 
-![bg](images/52993360181_f7bded0189_k.jpg)
+![bg Two men typing at the same keyboard](images/52993360181_f7bded0189_k.jpg)
 
 <!-- Awkwardly highlight the "copy & paste" joke -->
 
@@ -27,7 +27,7 @@ Effectively working with strangers on the internet
 ---
 <!-- _class: invert -->
 
-![bg left Joe](images/me.jpg)
+![bg left Joe speaking on stage at CodeGarden](images/me.jpg)
 
 ## <small>Hello, my name is</small> Joe Glombek
 Umbraco Developer at Bump
@@ -46,7 +46,7 @@ Since the dawn of Forums, CodeProject and Stack Overflow - and more recently wit
 ## Professional googlers
 
 <!-- ![bg left:40%](images/surfing-the-web.png) -->
-![bg](images/surfing-the-web-bg.png)
+![bg An AI generated image of a woman in a wetsuit and wearing goggles, with a surfboard and laptop.](images/surfing-the-web-bg.png)
 <!--
 _footer: '"Surfing the web?" - Created with Stable Diffusion and DALL-E'
 -->
@@ -67,7 +67,7 @@ _footer: Emma Burstow on Umbraco collaboration: [go.joe.gl/yt-collab-joe-paul](h
 
 ## We're not **competitors**, we're a **community**
 
-![bg right:45%](images/joe-and-paul.jpg)
+![bg right:45% Joe and Paul Seal sat at a table with Paul on his laptop. Joe is smiling at the camera.](images/joe-and-paul.jpg)
 
 <!-- 
 This photo is from after a Umbraco festival in the UK, when me and Paul (from Codeshare, creater of the Clean Starter Kit) went back to our hotel.
@@ -95,7 +95,7 @@ So we shouldn't be afraid to ask for help, and to offer our expertise to others.
 * <i class="fa-fw fad fa-question-square"></i>Existing answers to other people's questions 
 
 
-![bg right:41%](https://assets-global.website-files.com/5f3c19f18169b62a0d0bf387/60d33bee9c10a5689cd5e64a_qPOubJQVFNBuF_cDqEwbRTw1cI-9dKzoZ8o18D2XtiOgi4pmoMudEBbHcICtDhwBZSY71CKKqOaaWPnkycOU-w24UtOo5M-z-lul9v78JvvUrHKbaKRHHIpE6Tx5WkALe5tIYnaK.png)
+![bg right:41% Phoebe and Joey meme from where she's trying to teach him french. The panels read Phoebe: "Read", Joey: "Read", P: "the", J: "the", P: "documentation", J: "documentation", P: "Read then documentation", J: "Copy StackOverflow answer!" ](images/joey.png)
 
 <!-- _footer: "[Image source: @VishalMalvi_@x.com (probably)](https://twitter.com/VishalMalvi_/status/1520026885626814464)" -->
 
@@ -137,7 +137,7 @@ Already on masto? Directory
 Want to join the community masto? Link
 -->
 
-![bg right:40%](images/fediverse-unicorn.jpeg)
+![bg right:40% Digital art of a unicorn floating in space with a colourful galaxy behind](images/fediverse-unicorn.jpeg)
 
 ## Umbraco Community on Mastodon
 
@@ -225,7 +225,9 @@ Forum - tend to be longer questions with longer answers
 <!-- _footer: https://discord-chats.umbraco.com/t/15854045/solved-backoffice-in-block-list-show-image-name-in-label -->
 ### Let's look at an example
 
-<iframe src="https://discord-chats.umbraco.com/t/15854045/solved-backoffice-in-block-list-show-image-name-in-label"></iframe>
+<iframe src="https://discord-chats.umbraco.com/t/15854045/solved-backoffice-in-block-list-show-image-name-in-label" title="Question from Discord">
+  <a href="https://discord-chats.umbraco.com/t/15854045/solved-backoffice-in-block-list-show-image-name-in-label">Question from Discord</a>
+</iframe>
 
 <!--
 
@@ -361,7 +363,7 @@ We've established AI can be wrong.
 
 ---
 
-## Copy-Pasting vs. Comprehending
+## Copy & Pasting vs. Comprehending
 
 * Computer or robot, we need to **understand** what we're copying into our projects.
 * Big indicator of seniority
@@ -371,7 +373,7 @@ We've established AI can be wrong.
 
 ## Assess Suitability of Code
 
-![bg](images/magnifying-glass.jpg)
+![bg A magnifying glass over the top of a keyboard](images/magnifying-glass.jpg)
 
 <!-- _footer: 'Photo by [Agence Olloweb](https://unsplash.com/@olloweb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash' -->
 ---
@@ -384,7 +386,7 @@ We've established AI can be wrong.
 * Does that _feel_ right?
 * How can we increase our confidence in this answer?
 
-![bg right fit](images/chatgpt-luminance.png)
+![bg right fit Screenshot of a ChatGPT interaction. The prompt reads "Write me some C# code to decide whether to output black or white text dependent on a hexadecimal background color" and the answer includes a code sample with the explanation "This code first parses the hexadecimal color string into its red, green, and blue components. It then calculates the luminance of the color using the standard formula for converting RGB values to luminance. Finally, it uses the luminance value to decide whether to output black or white text."](images/chatgpt-luminance.png)
 
 
 <!--
@@ -419,7 +421,7 @@ I can also check luminance is
 
 > The programmer would sit down [...] and manually follow the value of a variable to check that it was used and updated as expected
 
-![bg right:40%](images/desert-run.jpg)
+![bg right:40% Four young adults running away from the camera through the desert, towards cacti and large rocks](images/desert-run.jpg)
 
 <!-- 
 _footer: '[BBC Bitesize: Dry run - Testing - Higher Computer Science](https://www.bbc.co.uk/bitesize/guides/zg4j7ty/revision/3)
@@ -462,7 +464,7 @@ luminance ≈ (0.2 * 27) + (0.7 * 38) + (0.1 * 79)
 result = "#FFFFFF"
 ```
 
-![bg left fit](images/chatgpt-luminance.png)
+![bg left fit Repeat of ChatGPT screenshot](images/chatgpt-luminance.png)
 
 ---
 
@@ -478,7 +480,7 @@ We'd all have a better idea of how to modify the previous example to, for exampl
 
 ---
 
-## Considering Performance in Context
+## Considering Performance
 
 * <i class="fa-fw fad fa-tachometer"></i> Do we always want the "most performant" answer?
 * <i class="fa-fw fad fa-brain"></i> Legibility can be more important
@@ -493,7 +495,7 @@ We'd all have a better idea of how to modify the previous example to, for exampl
 
 ---
 
-![bg right:44%](images/52993360181_f7bded0189_k.jpg)
+![bg right:44% Two men typing at the same keyboard](images/52993360181_f7bded0189_k.jpg)
 
 ## How to Copy & Paste
 - <i class="fa-fw fad fa-search"></i> **Google** it!
@@ -506,7 +508,7 @@ We'd all have a better idea of how to modify the previous example to, for exampl
 
 <!-- _class: invert -->
 
-![bg left Joe](images/me.jpg)
+![bg left Joe speaking on stage at CodeGarden](images/me.jpg)
 
 ## Thank you
 
