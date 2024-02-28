@@ -1,0 +1,235 @@
+/*!
+ * Marp copy of the Umbraco slide template (with liberties taken)
+ *
+ * @theme umbraco-theme
+ * @author Joe Glombek
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ */
+
+@import 'uncover';
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Zilla+Slab:ital,wght@0,500;0,700;1,500;1,700&family=Zilla+Slab+Highlight:wght@400;700&&display=swap');
+@import './fontawesome-pro-5.15.4-web/css/all.css';
+
+:root {
+    /* https://coolors.co/2c6b72-2d3142-ef8354-f2dc5d-70ae6e-009ddc-6761a8 */
+    --color-ming: #2c6b72;
+    --color-space-cadet: #2d3142;
+    --color-mandarin: #ef8354;
+    --color-minion-yellow: #f2dc5d;
+    --color-bud-green: #70ae6e;
+    --color-carolina-blue: #009ddc;
+    --color-dark-blue-gray: #6761a8;
+
+    /* --color-image-overlay: rgba(27,38,79, 0.42); */
+    --color-image-overlay: color-mix(in srgb, var(--color-space-cadet) 80%, transparent);
+
+    --font-size-body: 32px;
+
+    --font-header: 'Zilla Slab', sans-serif;
+    --font-header-highlight: 'Zilla Slab Highlight', sans-serif;
+    --font-body: 'Atkinson Hyperlegible', sans-serif;
+
+    font-family: var(--font-body);
+}
+
+section {
+
+    --color-background: white;
+    --color-background-code: var(--color-space-cadet);
+    --color-foreground-code: var(--color-minion-yellow);
+    /* --color-background-paginate: #{rgba($text, 0.05)}; */
+    --color-foreground: black;
+
+    --color-highlight: var(--color-ming);
+    --color-highlight-hover: var(--color-bud-green);
+    --color-highlight-heading: var(--color-mandarin);
+    --color-header: var(--color-ming);
+    /* --color-header-shadow: #{rgba($bg, 0.8)}; */
+
+    --color-heading: var(--color-ming);
+
+    --color-highlight-1: var(--color-mandarin);
+    --color-highlight-2: var(--color-bud-green);
+    --color-highlight-3: var(--color-carolina-blue);
+    --color-highlight-4: var(--color-dark-blue-gray);
+
+    /* background: var(--color-pink); */
+    text-align: left;
+    letter-spacing: unset;
+
+    font-size: var(--font-size-body);
+
+    /* padding: 30px 130px 30px 70px; */
+}
+
+section[data-marpit-advanced-background-split] {
+    padding: 30px 70px;
+}
+
+section[data-marpit-advanced-background=content]:not([data-marpit-advanced-background-split]),
+section.invert {
+
+    --color-background: var(--color-ming);
+
+    --color-background-code: var(--color-space-cadet);
+    --color-foreground-code: var(--color-minion-yellow);
+
+    /*--color-background-paginate: #{rgba($text, 0.05)}; */
+    --color-foreground: white;
+    --color-highlight: var(--color-mandarin);
+    --color-highlight-hover: var(--minion-yellow);
+    /*--color-highlight-hover: #{color.mix($text, $highlight, 25%)};
+    --color-highlight-heading: #{color.mix(#fff, $highlight, 20%)}; */
+    --color-header: white;
+    /* --color-header-shadow: #{rgba($bg, 0.8)}; */
+
+    --color-heading: white;
+
+    --color-highlight-1: var(--color-mandarin);
+    --color-highlight-2: var(--color-mandarin);
+    --color-highlight-3: var(--color-mandarin);
+    --color-highlight-4: var(--color-mandarin);
+
+    background-image: none;
+}
+
+section[data-marpit-advanced-background=content][data-marpit-advanced-background=content][data-marpit-advanced-background=content]:not([data-marpit-advanced-background-split]) {
+    background: var(--color-image-overlay) !important;
+
+    text-align: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-heading);
+    font-family: var(--font-header);
+    letter-spacing: unset;
+    font-weight: 500;
+
+    & strong,
+    &:has(small)
+    {
+        font-family: var(--font-header-highlight);
+        color: var(--color-highlight-heading);
+    }
+
+    & small {
+        font-weight: normal;
+        font-size: 0.95rem;
+        display: block;
+        color: var(--color-foreground);
+        line-height: 0em;
+        font-family: var(--font-body);
+        position: relative;
+        z-index: 1;
+        margin-left: -0.5em;
+    }
+}
+
+p {
+    margin-top: 1em!important;
+}
+
+ul {
+    margin-left: 0;
+}
+
+ul:has(li > i:first-child) {
+    list-style: none;
+    padding-left: 0;
+
+    & ul {
+        list-style: disc;
+    }
+}
+
+ul li:has(> i:first-child) {
+    display: block;
+    padding-left: 1.5em;
+}
+
+ul li>i:first-child {
+    --icon-scale: 0.75;
+    --icon-scale-i: calc(1/var(--icon-scale));
+
+    margin-left: calc(-1.5em * var(--icon-scale-i));
+    padding: 0 calc(((1.5em * var(--icon-scale-i)) - 1.25em) / 2);
+
+    font-size: calc(1em * var(--icon-scale));
+}
+
+ul li:has(> i:first-child) strong {
+    font-weight: normal;
+}
+
+ul li:has(> i:first-child) a:has(strong) {
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul li:has(> i:first-child):nth-child(4n + 1) i,
+ul li:has(> i:first-child):nth-child(4n + 1) strong {
+    color: var(--color-highlight-1);
+}
+
+ul li:has(> i:first-child):nth-child(4n + 2) i,
+ul li:has(> i:first-child):nth-child(4n + 2) strong {
+    color: var(--color-highlight-2);
+}
+
+ul li:has(> i:first-child):nth-child(4n + 3) i,
+ul li:has(> i:first-child):nth-child(4n + 3) strong {
+    color: var(--color-highlight-3);
+}
+
+ul li:has(> i:first-child):nth-child(4n + 4) i,
+ul li:has(> i:first-child):nth-child(4n + 4) strong {
+    color: var(--color-highlight-4);
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-bottom: 1rem;
+}
+
+code,
+marp-pre,
+pre {
+    --color-foreground: var(--color-foreground-code);
+}
+
+marp-pre,
+pre {
+    font-size: 1em;
+    --preserve-aspect-ratio: unset;
+}
+
+a {
+    text-decoration: underline;
+}
+
+[data-bespoke-marp-fragment] {}
+
+[data-bespoke-marp-fragment="inactive"] {
+    transition: opacity linear .3s,
+        visibility 0s .3s;
+    opacity: 0;
+}
+
+[data-bespoke-marp-fragment="active"] {
+    transition: opacity linear .7s;
+    opacity: 1;
+}
+
+blockquote > p:first-child {
+    margin-top: 0;
+}

@@ -4,19 +4,48 @@ theme: umbraco-theme
 transition: fade .3s
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet" />
+
 <style>
-    h1 strong {
+    h1 
+    {
+      & strong {
         color: inherit;
         text-shadow: -4em -4em 0px rgba(255,255,255,0.1),
                      -3em -3em 0px rgba(255,255,255,0.2),
                      -2em -2em 0px rgba(255,255,255,0.3),
                      -1em -1em 0px rgba(255,255,255,0.4)
                      ;
+        font-family: var(--font-header)!important;
+      }
+      
+    }
+
+    p {
+      margin-top: 2rem;
+
+      & ins {
+        position: absolute;
+        transform: translate(-50%, -100%) rotate(-10deg);
+        text-decoration: none;
+        font-size: 0.8em;
+        font-family: 'Shadows Into Light', cursive;
+
+        &:after {
+          content: '^';
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translate(calc(-50% - 0.4em), -0.1em) rotate(10deg);
+        }
+      }
     }
 </style>
 
 # How to **Copy & Paste**
-Effectively working with strangers on the internet
+Effectively working with strangers <ins>and robots</ins> on the internet
 
 ![bg Two men typing at the same keyboard](images/52993360181_f7bded0189_k.jpg)
 
@@ -48,7 +77,7 @@ Since the dawn of Forums, CodeProject and Stack Overflow - and more recently wit
 <!-- ![bg left:40%](images/surfing-the-web.png) -->
 ![bg An AI generated image of a woman in a wetsuit and wearing goggles, with a surfboard and laptop.](images/surfing-the-web-bg.png)
 <!--
-_footer: '"Surfing the web?" - Created with Stable Diffusion and DALL-E'
+_footer: '"Surfing the web?" - Created with DALL-E'
 -->
 
 <!--
@@ -84,7 +113,7 @@ So we shouldn't be afraid to ask for help, and to offer our expertise to others.
 
 <!-- Before we start with how and what to copy and paste, let's first start with some places we might find answers -  -->
 
-### Google it first!
+### **Google it first!**
 
 * <i class="fa-fw fad fa-books"></i>Documentation
 * <i class="fa-fw fab fa-youtube"></i>YouTube
@@ -141,7 +170,7 @@ Want to join the community masto? Link
 
 ## Umbraco Community on Mastodon
 
-- <i class="fad fa-fw fa-users"></i>**94** active users
+- <i class="fad fa-fw fa-users"></i>**98** active users
 - <i class="fad fa-fw fa-search"></i>[**umbracocommunity.social**/directory](https://umbracocommunity.social/directory)
 - <i class="fad fa-fw fa-sign-in"></i>[**umbracocommunity.social**/auth/sign_up](https://umbracocommunity.social/auth/sign_up)
 - &nbsp;
@@ -149,8 +178,9 @@ Want to join the community masto? Link
 - &nbsp;
 - <i class="fad fa-fw fa-newspaper"></i> [**joe.gl**/umbraco-fedi](https://joe.gl/ombek/blog/umbraco-in-the-fediverse/)
 ---
+<!-- _class: invert -->
 
-<iframe src="https://umbracocommunity.social/@loranallensmith/111162470637682139/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://umbracocommunity.social/embed.js" async="async"></script>
+<iframe src="https://umbracocommunity.social/@umbracospark/111885245095461269/embed" class="mastodon-embed" style="max-width: 65%; margin: auto; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://umbracocommunity.social/embed.js" async="async"></script>
 
 <!--
 _footer: '</ Shameless Mastodon Plug>'
@@ -240,18 +270,14 @@ Reproducible example: Provided Umbraco version, media picker version, exact setu
 
 -->
 
-<!-- ---
+---
 
 > Happy Monday!
 > In the backoffice (v10) I have a block list editor with image rows. That image row has an Image Media Picker, with the alias "image". I would like to show the name of that image in the block list editor's label for that row.
-> 
 > I have tried label values such as Image: `{{ image.name }}` and `Image: {{ image }}` but to no joy. Fields such as "caption" can be accessed happily though `{{ caption }}`, the problem arises because image is an Umbraco.MediaPicker3 and I'm trying to access the name of that specific piece of picked media (3).
-> 
 > I have scoured @Joe Glombek's EXCELLENT [blog post](https://joe.gl/ombek/blog/umbraco-angularjs-filter-cheat-sheet) but alas I am without results.
-> 
 > Please do consider helping a boy out on a cold, autumnal Monday morning.
-> 
-> TIA! -->
+> TIA!
 
 ---
 
@@ -282,7 +308,6 @@ How might we fix this?
 > ```
 > services.AddAuthentication(...)
 > ```
->
 > But I get the following error:
 > ```
 > An Exception of type MadeUpAsAnExampleException was thrown...
@@ -516,3 +541,6 @@ Reach out & read more:
 - <i class="fab fa-fw fa-mastodon"></i>[umbracocommunity.social/**@joe**](https://umbracocommunity.social/@joe)
 - <i class="fab fa-fw fa-discord"></i>glombek
 - <i class="fad fa-fw fa-globe"></i>[www.**joe.gl**](https://joe.gl/ombek)
+
+Slides:
+- <i class="fad fa-fw fa-presentation"></i>[notacu.lt/slides/**copy-paste**](https://slides.joe.gl/how-to-copy-and-paste/)
