@@ -395,12 +395,16 @@ AI has been scouring the internet looking at _our_ programs and _our_ code sampl
 
 <!--
 Let's see how Scott Hanselman uses AI to rubber duck
+
+[Play video]
+
+You know what AI is also good at? Generating pictures of rubber ducks in an office setting...
 -->
 
 ---
 
 <!--
-You know what AI is also good at? Generating picures of rubber ducks in an office setting...
+You know what AI is also good at? Generating pictures of rubber ducks in an office setting...
 -->
 
 ![bg Rubber ducks sat at desks with computers in an office setting. AI Generated.](images/rubber-ducks/2e9d925c-47d9-45ff-9e27-7daedba12152.jpeg)
@@ -408,7 +412,7 @@ You know what AI is also good at? Generating picures of rubber ducks in an offic
 ---
 
 <!--
-You know what AI is also good at? Generating picures of rubber ducks in an office setting...
+You know what AI is also good at? Generating pictures of rubber ducks in an office setting...
 -->
 
 ![bg A collection of rubber ducks on computers and laptops with headsets or holding phones. AI Generated.](images/rubber-ducks/46237d04-4cb3-4d36-a552-339b38b4655f.jpeg)
