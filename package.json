@@ -3,7 +3,7 @@
     "@marp-team/marp-cli": "^3.3.0"
   },
   "scripts": {
-    "dev": "npx @marp-team/marp-cli -s ./ --theme joe-theme.css --bespoke.transition --html",
-    "build": "npx @marp-team/marp-cli ./ --theme joe-theme.css --bespoke.transition --html"
+    "dev": "npx marp -s ./ --theme joe-theme.css --bespoke.transition --html",
+    "build": "npx marp index.md --theme joe-theme.css --bespoke.transition --html"
   }
 }

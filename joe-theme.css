@@ -1,7 +1,7 @@
 /*!
- * Marp copy of the Umbraco slide template (with liberties taken)
+ * Marp theme inspired by Joe.Gl
  *
- * @theme umbraco-theme
+ * @theme joe-theme
  * @author Joe Glombek
  *
  * @auto-scaling true
@@ -64,6 +64,10 @@ section {
     /* padding: 30px 130px 30px 70px; */
 }
 
+section:empty {
+    --color-image-overlay: transparent;
+}
+
 section[data-marpit-advanced-background-split] {
     padding: 30px 70px;
 }
@@ -114,8 +118,7 @@ h6 {
     font-weight: 500;
 
     & strong,
-    &:has(small)
-    {
+    &:has(small) {
         font-family: var(--font-header-highlight);
         color: var(--color-highlight-heading);
     }
@@ -134,7 +137,7 @@ h6 {
 }
 
 p {
-    margin-top: 1em!important;
+    margin-top: 1em !important;
 }
 
 ul {
@@ -230,6 +233,27 @@ a {
     opacity: 1;
 }
 
-blockquote > p:first-child {
-    margin-top: 0;
+blockquote>p:first-child {
+    margin-top: 0 !important;
+}
+
+ins {
+    position: absolute;
+    transform: translate(-50%, -100%) rotate(-10deg);
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: 'Shadows Into Light', cursive;
+    color: var(--color-highlight);
+
+    &:after {
+        content: '^';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(calc(-50% - 0.4em), -0.1em) rotate(10deg);
+    }
+}
+
+del {
+    text-decoration: line-through 0.25em color-mix(in srgb, var(--color-highlight) 90%, transparent);
 }

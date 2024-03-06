@@ -1,15 +1,17 @@
 ---
 marp: true
-theme: umbraco-theme
+theme: joe-theme
 transition: fade .3s
 ---
+
+<!-- _class: copy-paste -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet" />
 
 <style>
-    h1 
+    section.copy-paste h1 
     {
       & strong {
         color: inherit;
@@ -19,28 +21,11 @@ transition: fade .3s
                      -1em -1em 0px rgba(255,255,255,0.4)
                      ;
         font-family: var(--font-header)!important;
-      }
-      
+      }      
     }
 
-    p {
+    section.copy-paste p {
       margin-top: 2rem;
-
-      & ins {
-        position: absolute;
-        transform: translate(-50%, -100%) rotate(-10deg);
-        text-decoration: none;
-        font-size: 0.8em;
-        font-family: 'Shadows Into Light', cursive;
-
-        &:after {
-          content: '^';
-          position: absolute;
-          top: 100%;
-          left: 50%;
-          transform: translate(calc(-50% - 0.4em), -0.1em) rotate(10deg);
-        }
-      }
     }
 </style>
 
@@ -51,31 +36,18 @@ Effectively working with strangers <ins>and robots</ins> on the internet
 
 <!-- Awkwardly highlight the "copy & paste" joke -->
 
-<!-- _footer: Joe Glombek -->
-
----
-<!-- _class: invert -->
-
-![bg left Joe speaking on stage at CodeGarden](images/me.jpg)
-
-## <small>Hello, my name is</small> Joe Glombek
-Umbraco Developer at Bump
-Umbraco MVP
-
-- <i class="fab fa-fw fa-mastodon"></i>[umbracocommunity.social/**@joe**](https://umbracocommunity.social/@joe)
-- <i class="fab fa-fw fa-discord"></i>glombek
-- <i class="fad fa-fw fa-globe"></i>[www.**joe.gl**](https://joe.gl/ombek)
-
 <!-- ## CFP
 
 Since the dawn of Forums, CodeProject and Stack Overflow - and more recently with Our Umbraco, Github, Discord, Youtube and blog posts - we've been building applications with strangers on the internet, copying and pasting other developers' code. And now with the advent of ChatGPT, GitHub CoPilot and other AI solutions, it's easier than ever to use code somebody (or something) else wrote... without necessarily understanding the code completely. We all copy and paste code, but a senior developer will often approach the task in different way to someone more junior. We'll look at how to level-up our Ctrl+V game through understanding the problem, assessing suitability and adapting code samples to meet our needs. Together, we can build something better and quicker... so long as we know what we're building. -->
 
+<!-- _footer: Joe Glombek -->
+
 ---
 
-## Professional googlers
+## <small>Hello there,</small> Professional Googlers
 
 <!-- ![bg left:40%](images/surfing-the-web.png) -->
-![bg An AI generated image of a woman in a wetsuit and wearing goggles, with a surfboard and laptop.](images/surfing-the-web-bg.png)
+![bg An AI generated image of a woman in a wetsuit and wearing goggles, lying on a surfboard with a laptop.](images/surfing-the-web-bg.png)
 <!--
 _footer: '"Surfing the web?" - Created with DALL-E'
 -->
@@ -89,6 +61,26 @@ But I don't see this as a negative. When we're isolated we might feel weak and h
 -->
 
 ---
+<!-- _class: invert -->
+
+![bg left Joe speaking on stage at CodeGarden](images/me.jpg)
+
+## <small>Hello, my name is</small> Joe Glombek
+
+<br />
+
+- <i class="fad fa-fw fa-briefcase"></i><del>Professional Googler</del><ins>Umbraco Developer</ins> at Bump
+- <i class="fad fa-fw fa-trophy-alt"></i>Umbraco MVP
+- <i class="fab fa-fw fa-meetup"></i>umBristol organiser
+
+<br />
+
+- <i class="fab fa-fw fa-mastodon"></i>[**@joe**@umbracocommunity.social](https://umbracocommunity.social/@joe)
+- <i class="fab fa-fw fa-discord"></i>**glombek**
+- <i class="fad fa-fw fa-globe"></i>[www.**joe.gl**](https://joe.gl/ombek)
+
+---
+
 <!--
 _class: invert
 _footer: Emma Burstow on Umbraco collaboration: [go.joe.gl/yt-collab-joe-paul](https://go.joe.gl/yt-collab-joe-paul)
@@ -109,11 +101,20 @@ So we shouldn't be afraid to ask for help, and to offer our expertise to others.
 
 ---
 
-## Where to get help
+## How can I **ask for help** from the community?
+![bg A child offering a helping hand to their younger sibling, playing in the woods](images/annie-spratt-9VpI3gQ1iUo-unsplash.jpg)
+
+<!--
+_footer: 'Photo by <a href="https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Annie Spratt</a> on <a href="https://unsplash.com/photos/boy-and-girl-playing-on-three-tree-log-9VpI3gQ1iUo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>'
+-->
+
+---
+
+### **Where** to get help
 
 <!-- Before we start with how and what to copy and paste, let's first start with some places we might find answers -  -->
 
-### **Google it first!**
+#### **Google it first!**
 
 * <i class="fa-fw fad fa-books"></i>Documentation
 * <i class="fa-fw fab fa-youtube"></i>YouTube
@@ -130,7 +131,7 @@ So we shouldn't be afraid to ask for help, and to offer our expertise to others.
 
 ---
 
-### So you need to ask for help?
+#### So you need to ask for help?
 If you can't find the answer you're looking for, it's time to ask for help.
 
 * <i class="fa-fw fab fa-stack-overflow"></i>StackOverflow
@@ -168,7 +169,7 @@ Want to join the community masto? Link
 
 ![bg right:40% Digital art of a unicorn floating in space with a colourful galaxy behind](images/fediverse-unicorn.jpeg)
 
-## Umbraco Community on Mastodon
+### Umbraco Community on Mastodon
 
 - <i class="fad fa-fw fa-users"></i>**98** active users
 - <i class="fad fa-fw fa-search"></i>[**umbracocommunity.social**/directory](https://umbracocommunity.social/directory)
@@ -188,7 +189,7 @@ _footer: '</ Shameless Mastodon Plug>'
 
 ---
 
-## *How* to ask for help
+### *How* to ask for help
 
 How can we ask for help in a way that's most likely to get the best possible answer?
 
@@ -198,12 +199,12 @@ How can we ask for help in a way that's most likely to get the best possible ans
 Although the community is very helpful, it't to our own benefit to ask the right questions in the right places.
 -->
 
-* <i class="fa-fw fad fa-search"></i>Do your research *first*
-* <i class="fa-fw fad fa-head-side-brain"></i>Comprehend the problem
-* <i class="fa-fw fad fa-hands-heart"></i>Be polite and patient - nobody _has_ to help you
-* <i class="fa-fw fad fa-tags"></i>On-topic and suitable (including tags, categories, etc)
-* <i class="fa-fw fad fa-clipboard-list"></i>Summarize your problem
-* <i class="fa-fw fad fa-code"></i>[Include a reproducible example](https://stackoverflow.com/help/minimal-reproducible-example)
+* <i class="fa-fw fad fa-search"></i>Do your **research** *first*
+* <i class="fa-fw fad fa-head-side-brain"></i>**Comprehend** the problem (<i class="fad fa-duck"></i>)
+* <i class="fa-fw fad fa-hands-heart"></i>**Be polite** and patient - nobody _has_ to help you
+* <i class="fa-fw fad fa-tags"></i>**On-topic** and suitable (including tags, categories, etc)
+* <i class="fa-fw fad fa-clipboard-list"></i>**Summarize** your problem
+* <i class="fa-fw fad fa-code"></i>[Include a **reproducible** example <small><i class="fa-fw fa fa-external-link"></i></small>](https://stackoverflow.com/help/minimal-reproducible-example)
 
 <!-- 
 
@@ -212,6 +213,7 @@ Although you've already searched for an answer to your question, it's also impor
 
 Comprehend the problem
 There's very little point in asking a question if we don't know what we're asking. If we don't understand what we're asking we need to ask a different question
+Comprehend here basically means "understand", but I feel it emphasises we don't need to *understand* everything, just *comprehend* what we *wan't* to understand.
 
 Be polite and patient - nobody _has_ to help you
 
@@ -223,14 +225,45 @@ Include a reproducible example
 
 ---
 
-We know this is good advice, because it's from StackOverflow. And if anybody is fussy about how you ask a question, it's them! -->
+We know this is good advice, because it inspired by StackOverflow. And if anybody is fussy about how you ask a question, it's them! -->
 
-<!-- _footer: https://stackoverflow.com/help/how-to-ask -->
+<!-- _footer: Inspired by: https://stackoverflow.com/help/how-to-ask -->
 
 ---
 
+### <small>What is</small>Rubber ducking<ins>AKA "Savaging from behind"</ins>?
 
-### What to ask where
+<!--
+As a junior fresh-out-of-his-apprenticeship developer, I had a boss called Mr Savage.
+We'd often call him over to ask him questions, only to have the answer immediately present itself without him saying a word.
+
+We called this "Savaging from behind" - all he had to do was stand behind us and the problem was solved.
+
+Other developers have discovered this solution, but not all of them had a Mr Savage!
+
+They had to settle for a rubber duck on their desk (or anything with a face, really)
+
+The idea:
+forming your questions into actual verbalised queries
+providing context 
+out loud
+can help yourself to better understand a problem
+come up with a solution
+
+This can really help with the "comprehend the problem" step
+
+-->
+
+<!-- ### **<i class="fad fa-duck"></i>** -->
+
+![bg right:60% Rubber ducks sat at desks with computers in an office setting. AI Generated.](images/rubber-ducks.jpg)
+<!--
+_footer: '"A ducking great work ethic", Created with DALL-E'
+-->
+
+---
+
+### **What** to ask **where**
 Some questions lend themselves to specific environments.
 
 * <i class="fa-fw fad fa-comments-alt"></i>Vague or conceptual question, hand holding
@@ -262,7 +295,7 @@ Forum - tend to be longer questions with longer answers
 <!--
 
 Do your research: Read my blog post
-Understand the problem:
+Understand the problem: detailed, said what he's tried
 Be polite: Flattery will get you everywhere! Friendly, sociable, "TIA"
 On topic & suitable: Umbraco Discord, help-with-umbraco channel, hoping for a quick, short reply (it actually helped us chat it over and try things out without me needing to replicate)
 Summarize your problem: Pictures! "I would like to..."
@@ -338,6 +371,7 @@ AI has been scouring the internet looking at _our_ programs and _our_ code sampl
 
 - <i class="fa-fw fad fa-bolt"></i>OpenAI ChatGPT
 - <i class="fa-fw fab fa-github"></i>Github Copilot <small><i class="fad fa-badge-dollar"></i></small>
+- <i class="fa-fw fad fa-sparkles"></i>Google Gemini
 
 ---
 
@@ -351,6 +385,42 @@ AI has been scouring the internet looking at _our_ programs and _our_ code sampl
 * <i class="fa-fw fad fa-chalkboard"></i>**Explaining** code samples and error messages
 * <i class="fa-fw fad fa-transporter-2"></i>**Converting** from one format to another
   > Convert the following XML file into JSON
+* <i class="fad fa-duck"></i> Be my **rubber duck**
+
+---
+
+<video src="images/ai-rubber-duck.mp4" style="max-height:100%; width:32.2%;margin:auto;" controls="controls" />
+
+![bg Rubber ducks sat at desks with computers in an office setting. AI Generated.](images/rubber-ducks.jpg)
+
+<!--
+Let's see how Scott Hanselman uses AI to rubber duck
+-->
+
+---
+
+<!--
+You know what AI is also good at? Generating picures of rubber ducks in an office setting...
+-->
+
+![bg Rubber ducks sat at desks with computers in an office setting. AI Generated.](images/rubber-ducks/_2e9d925c-47d9-45ff-9e27-7daedba12152.jpeg)
+
+---
+
+<!--
+You know what AI is also good at? Generating picures of rubber ducks in an office setting...
+-->
+
+![bg A collection of rubber ducks on computers and laptops with headsets or holding phones. AI Generated.](images/rubber-ducks/_46237d04-4cb3-4d36-a552-339b38b4655f.jpeg)
+
+---
+
+<!--
+...or rubber ducks using humans as rubber ducks
+-->
+
+![bg A rubber duck sat at a laptop "rubber ducking" with a rubber human. AI Generated.](images/rubber-ducks/_5695cd31-12b3-4b4e-85eb-a9bc3922183f.jpeg)
+![bg A rubber duck sat at a laptop "rubber ducking" with a rubber human. AI Generated.](images/rubber-ducks/_bc7baa59-78f0-4f45-b0ab-26570e4184a3.jpeg)
 
 ---
 
@@ -372,10 +442,69 @@ AI has been scouring the internet looking at _our_ programs and _our_ code sampl
 
 Makes things up: AI will rarely tell you that you can't do something. It will generally make up ways you can... even if those ways are not possible and use API methods that simply don't exist.
 -->
+
 ---
 
-So, you've asked a question and got an answer. Now we need to know...
-## How to Copy & Paste
+![bg right](images/apple-shortcuts/ai-iphone.jpg)
+
+# **ChatGPT** making things up
+
+---
+
+![bg contain
+ChatGPT screenshot.
+User:
+Create an Apple Shortcuts automation to put my phone into a focus mode called "Sleep" when the phone is charging between 9pm and 8am
+ChatGPT:
+Open the Shortcuts app on your iPhone.
+Tap on the "Automation" tab at the bottom.
+Tap on the "+" icon to create a new automation.
+Choose the "Charger" trigger.
+Toggle on "Is Connected".
+Tap on "Next".
+Tap on "Add Action".
+Search for and select the "Set Focus" action.
+Tap on the "Focus" field and select or create a focus mode called "Sleep".
+Tap on "Next".
+Toggle on "Time of Day".
+Set the start time to 9 PM and the end time to 8 AM.
+Tap on "Next".
+Toggle off "Ask Before Running".
+Tap on "Done" to save the automation.
+Now, whenever your phone is connected to the charger between 9 PM and 8 AM, it will automatically activate the "Sleep" focus mode.
+](images/apple-shortcuts/image1.png)
+
+---
+
+![bg contain left 50%
+ChatGPT screenshot.
+User:
+There is no "Time of Day" toggle
+](images/apple-shortcuts/image2.png)
+
+---
+
+![bg contain 50%
+ChatGPT screenshot.
+User:
+There is no "Time of Day" toggle
+](images/apple-shortcuts/image2.png)
+
+![bg contain
+ChatGPT screenshot.
+User:
+There is no "Time of Day" toggle
+](images/apple-shortcuts/image3.png)
+
+---
+
+<!-- So, you've asked a question and got an answer. -->
+
+
+## <small>Now we need to know&hellip;</small> How to Copy & Paste
+
+
+![bg Two men typing at the same keyboard](images/52993360181_f7bded0189_k.jpg)
 
 <!-- _footer: "🎉 *(Roll credits...)*" -->
 
@@ -384,37 +513,181 @@ So, you've asked a question and got an answer. Now we need to know...
 <!-- _class: invert -->
 We've established AI can be wrong.
 
-## AI learns from **people**,<br> People are **wrong too**.
+### AI learns from **people**,<br> People are **wrong too**.
 
 ---
 
-## Copy & Pasting vs. Comprehending
+### Copy & Pasting vs. Comprehending
 
-* Computer or robot, we need to **understand** what we're copying into our projects.
-* Big indicator of seniority
-* We don't need to understand every intricacy of the code, but we should have an idea line-by-line what it's doing
+* <i class="fad fa-fw fa-head-side-brain"></i>Human or robot, we need to **understand** what we're copying into our projects
+* <i class="fad fa-fw fa-user-chart"></i>Big indicator of **seniority**
+* <i class="fad fa-fw fa-cogs"></i>We don't need to understand every intricacy of the code, but we should have an ***idea*** line-by-line what it's doing
+
 
 ---
 
-## Assess Suitability of Code
+### Assessing **Suitability** of a **Solution**
 
 ![bg A magnifying glass over the top of a keyboard](images/magnifying-glass.jpg)
 
 <!-- _footer: 'Photo by [Agence Olloweb](https://unsplash.com/@olloweb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash' -->
 ---
 
-## Comprehending & suitability
+<!-- Example: searching for a way to add asterisk to fields without extra markup -->
 
-* Does it answer my question?
-* Line by line, what is this doing?
-* Does the code match the description?
-* Does that _feel_ right?
-* How can we increase our confidence in this answer?
+<p style="border:1px solid currentColor; border-radius: 10em; padding: 0.25em;"><i class="fa-fw fad fa-search"></i> add asterisk to required fields without additional markup</p>
 
-![bg right fit Screenshot of a ChatGPT interaction. The prompt reads "Write me some C# code to decide whether to output black or white text dependent on a hexadecimal background color" and the answer includes a code sample with the explanation "This code first parses the hexadecimal color string into its red, green, and blue components. It then calculates the luminance of the color using the standard formula for converting RGB values to luminance. Finally, it uses the luminance value to decide whether to output black or white text."](images/chatgpt-luminance.png)
+<!--
+Come across this stack overflow answer
+
+Uses background image on the input to draw an image of an asterisk.
+
+If we didn't know better (or think it through) this is a valid solution to the question
+-->
+
+> A similar outcome could be achieved by using a background image of a picture of an asterisk and setting the background of the label/input/the outer div and a padding of the size of the asterisk image. Something like this:
+>
+> ```
+> .required input {
+>   padding-right: 25px;
+>   background-image: url(...);
+>   background-position: right top;
+> }
+> ```
+>
+> This will put the asterisk INSIDE the text box, but putting the same on `div.required` instead of `.required input` will probably be more what you're looking for, if a little less elegant. This method doesn't require an additional input.
+
+---
+
+<!--
+Look at the question
+they're asking a different question!
+
+They're saying the *more correct* solution doesn't work for them.
+
+May sound like a contrived answer to question
+It's real
+I answered it
+-->
+
+![bg contain Stack Overflow questions screenshot reading:
+What is a good way to overcome the unfortunate fact that this code will not work as desired:
+&lt;div class=&quot;required&quot;&gt;
+    &lt;label&gt;Name:&lt;/label&gt;
+    &lt;input type=&quot;text&quot;&gt;
+&lt;/div&gt;
+&lt;style&gt;
+    .required input:after { content:&quot;*&quot;; }
+&lt;/style&gt;
+In a perfect world, all required inputs would get the little asterisk indicating that the field is required. This solution impossible since the CSS is inserted after the element content, not after the element itself, but something like it would be ideal. On a site with thousands of required fields, I can move the asterisk in front of the input with one change to one line (:after to :before) or I can move it to the end of the label (.required label:after) or in front of the label, or to a position on the containing box, etc...
+This is important not just in case I change my mind about where to place the asterisk everywhere, but also for odd cases where the form layout doesn't allow the asterisk in the standard position. It also plays well with validation that checks the form or highlights improperly completed controls.
+Lastly, it doesn't add additional markup.
+Are there any good solutions that have all or most of the advantages of the impossible code?](images/suitability-of-solution/question.png)
+
+---
+
+<!-- 
+That's my answer!
+
+Kept getting upvotes for it.
+
+I know there's no way that was the correct answer for anyone else.
+They've been Googling like we said and come across my *marked as solution* answer!
+
+Added a comment to highlight better solutions
+
+Then edited the answer to highlight the better solution
+
+Then made that warning big and bold
+
+Then finally gave in and deleted my answer!
+
+It was the right answer for this person, but others were mistaking it for their correct answer **SO OFTEN**
+ -->
+
+![bg contain Screenshot of the answer shown before with a "This post is hidden" message as well as a disclaimer "Although this is the accepted answer, please ignore me and use the :after syntax suggested below. My solution is not accessible." and a comment from the answerer "Its worth noting, however, that this isn't very screen-reader friendly. Max's answer is much better in this respect. In fact in most cases, Max's answer is more ideal - just not for the OP."](images/suitability-of-solution/deleted.png)
+
+---
+
+### <small>Joe's guide to</small>Assessing suitability
+
+![bg right:40% cover A magnifying glass over the top of a keyboard](images/magnifying-glass.jpg)
+
+<!-- 
+So here's Joe's guide to comprehending and assessing suitability.
+
+- Answer Q?
+  - Does the answer make sense as a response to my question?
+  - Could've misread/misunderstood
+  - Is my question the same one as being answered?
+  - If reading someone elses question
+
+- Line by line
+  - If it's a code solution, what does each line do?
+  - We don't need to understand every intricacy of the code,
+    but we should have an ***idea*** line-by-line what it's doing
+
+- Match description
+  - Does a written description match up with what the code does?
+  - If not - bad smell!
+
+- Feel right
+  - How's the gut feel?
+  - What existing knowledge can we apply?
+
+- Increase confidence
+  - What else could we ask or look up to reassure us?
+ -->
+
+* <i class="fa-fw fad fa-question"></i>Does it **answer my question**?
+* <i class="fa-fw fad fa-file-search"></i>**Line by line**, what is this doing?
+* <i class="fa-fw fad fa-swatchbook"></i>Does the **code match the description**?
+* <i class="fa-fw fad fa-hand-heart"></i>Does that **_feel right_**?
+* <i class="fa-fw fad fa-smile-plus"></i>How can we **increase our confidence** in this answer?
+
+---
+
+<!-- 
+Applied to my last 
+- Answer Q? - No, answering a different one
+- Line by line - adding an image
+- Match description - yes
+- Feel right - NO! Background knowledge - There's no semantics here, background images not readable by a screen reader
+- Increase confidence - no need, we've already failed! Could look up semantics of required fields
+
+Let's look at another example...
+ -->
+
+* <i class="fa-fw fad fa-question"></i>Does it answer my question?
+* <i class="fa-fw fad fa-file-search"></i>Line by line
+* <i class="fa-fw fad fa-swatchbook"></i>Code matches description?
+* <i class="fa-fw fad fa-hand-heart"></i>_Feels_ right?
+* <i class="fa-fw fad fa-smile-plus"></i>Increase confidence
+
+![bg left contain
+A similar outcome could be achieved by using a background image of a picture of an asterisk and setting the background of the label/input/the outer div and a padding of the size of the asterisk image. Something like this:
+.required input {
+   padding-right: 25px;
+   background-image: url(...);
+   background-position: right top;
+}
+This will put the asterisk INSIDE the text box, but putting the same on div.required instead of .required input will probably be more what you're looking for, if a little less elegant.
+This method doesn't require an additional input.
+](images/suitability-of-solution/original.png)
+
+---
+
+* <i class="fa-fw fad fa-question"></i>Does it answer my question?
+* <i class="fa-fw fad fa-file-search"></i>Line by line
+* <i class="fa-fw fad fa-swatchbook"></i>Code matches description?
+* <i class="fa-fw fad fa-hand-heart"></i>_Feels_ right?
+* <i class="fa-fw fad fa-smile-plus"></i>Increase confidence
+
+![bg left fit Screenshot of a ChatGPT interaction. The prompt reads "Write me some C# code to decide whether to output black or white text dependent on a hexadecimal background color" and the answer includes a code sample with the explanation "This code first parses the hexadecimal color string into its red, green, and blue components. It then calculates the luminance of the color using the standard formula for converting RGB values to luminance. Finally, it uses the luminance value to decide whether to output black or white text."](images/chatgpt-luminance.png)
 
 
 <!--
+
 Does it answer my question?
 Read Q and A
 
@@ -442,7 +715,7 @@ I can also check luminance is
 
 ---
 
-## Dry run testing
+### Dry run testing
 
 > The programmer would sit down [...] and manually follow the value of a variable to check that it was used and updated as expected
 
@@ -522,12 +795,12 @@ We'd all have a better idea of how to modify the previous example to, for exampl
 
 ![bg right:44% Two men typing at the same keyboard](images/52993360181_f7bded0189_k.jpg)
 
-## How to Copy & Paste
-- <i class="fa-fw fad fa-search"></i> **Google** it!
-- <i class="fa-fw fad fa-question"></i> Ask in the best place in the best way
-- <i class="fa-fw fad fa-box"></i> Know **what** and **why** you're asking
-- <i class="fa-fw fad fa-brain"></i> **Understand** and **validate** the answer
-- <i class="fa-fw fad fa-edit"></i> **Adapt** to meet your needs
+## <small>How to</small> Copy & Paste
+- <i class="fa-fw fad fa-search"></i>**Google** it!
+- <i class="fa-fw fad fa-question"></i>Ask the **best** people (or robots) in the **best** place in the **best** way
+- <i class="fa-fw fad fa-box"></i>Know **what** and **why** you're asking (<i class="fad fa-duck"></i>)
+- <i class="fa-fw fad fa-brain"></i>**Understand** and **validate** the answer
+- <i class="fa-fw fad fa-edit"></i>**Adapt** to meet your needs
 
 ---
 
@@ -537,9 +810,8 @@ We'd all have a better idea of how to modify the previous example to, for exampl
 
 ## Thank you
 
-Reach out & read more:
-- <i class="fab fa-fw fa-mastodon"></i>[umbracocommunity.social/**@joe**](https://umbracocommunity.social/@joe)
-- <i class="fab fa-fw fa-discord"></i>glombek
+- <i class="fab fa-fw fa-mastodon"></i>[**@joe**@umbracocommunity.social](https://umbracocommunity.social/@joe)
+- <i class="fab fa-fw fa-discord"></i>**glombek**
 - <i class="fad fa-fw fa-globe"></i>[www.**joe.gl**](https://joe.gl/ombek)
 
 Slides:
