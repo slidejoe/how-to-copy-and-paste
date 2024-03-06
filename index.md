@@ -403,7 +403,7 @@ Let's see how Scott Hanselman uses AI to rubber duck
 You know what AI is also good at? Generating picures of rubber ducks in an office setting...
 -->
 
-![bg Rubber ducks sat at desks with computers in an office setting. AI Generated.](images/rubber-ducks/_2e9d925c-47d9-45ff-9e27-7daedba12152.jpeg)
+![bg Rubber ducks sat at desks with computers in an office setting. AI Generated.](images/rubber-ducks/2e9d925c-47d9-45ff-9e27-7daedba12152.jpeg)
 
 ---
 
@@ -411,7 +411,7 @@ You know what AI is also good at? Generating picures of rubber ducks in an offic
 You know what AI is also good at? Generating picures of rubber ducks in an office setting...
 -->
 
-![bg A collection of rubber ducks on computers and laptops with headsets or holding phones. AI Generated.](images/rubber-ducks/_46237d04-4cb3-4d36-a552-339b38b4655f.jpeg)
+![bg A collection of rubber ducks on computers and laptops with headsets or holding phones. AI Generated.](images/rubber-ducks/46237d04-4cb3-4d36-a552-339b38b4655f.jpeg)
 
 ---
 
@@ -419,8 +419,8 @@ You know what AI is also good at? Generating picures of rubber ducks in an offic
 ...or rubber ducks using humans as rubber ducks
 -->
 
-![bg A rubber duck sat at a laptop "rubber ducking" with a rubber human. AI Generated.](images/rubber-ducks/_5695cd31-12b3-4b4e-85eb-a9bc3922183f.jpeg)
-![bg A rubber duck sat at a laptop "rubber ducking" with a rubber human. AI Generated.](images/rubber-ducks/_bc7baa59-78f0-4f45-b0ab-26570e4184a3.jpeg)
+![bg A rubber duck sat at a laptop "rubber ducking" with a rubber human. AI Generated.](images/rubber-ducks/5695cd31-12b3-4b4e-85eb-a9bc3922183f.jpeg)
+![bg A rubber duck sat at a laptop "rubber ducking" with a rubber human. AI Generated.](images/rubber-ducks/bc7baa59-78f0-4f45-b0ab-26570e4184a3.jpeg)
 
 ---
 
