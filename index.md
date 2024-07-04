@@ -38,7 +38,7 @@ Effectively working with strangers <ins>and robots</ins> on the internet
 
 <!-- ## CFP
 
-Since the dawn of Forums, CodeProject and Stack Overflow - and more recently with Our Umbraco, Github, Discord, Youtube and blog posts - we've been building applications with strangers on the internet, copying and pasting other developers' code. And now with the advent of ChatGPT, GitHub CoPilot and other AI solutions, it's easier than ever to use code somebody (or something) else wrote... without necessarily understanding the code completely. We all copy and paste code, but a senior developer will often approach the task in different way to someone more junior. We'll look at how to level-up our Ctrl+V game through understanding the problem, assessing suitability and adapting code samples to meet our needs. Together, we can build something better and quicker... so long as we know what we're building. -->
+Since the dawn of Forums, CodeProject and Stack Overflow - and more recently with Github, Discord, Youtube and blog posts - we've been building applications with strangers on the internet, copying and pasting other developers' code. And now with the advent of ChatGPT, GitHub CoPilot and other AI solutions, it's easier than ever to use code somebody (or something) else wrote... without necessarily understanding the code completely. We all copy and paste code, but a senior developer will often approach the task in different way to someone more junior. We'll look at how to level-up our Ctrl+V game through understanding the problem, assessing suitability and adapting code samples to meet our needs. Together, we can build something better and quicker... so long as we know what we're building. -->
 
 <!-- _footer: Joe Glombek -->
 
@@ -69,24 +69,24 @@ But I don't see this as a negative. When we're isolated we might feel weak and h
 
 <br />
 
-- <i class="fad fa-fw fa-briefcase"></i><del>Professional Googler</del><ins>Umbraco Developer</ins> at Bump
-- <i class="fad fa-fw fa-trophy-alt"></i>Umbraco MVP
-- <i class="fab fa-fw fa-meetup"></i>umBristol organiser
+- <i class="fad fa-fw fa-briefcase"></i><del>Professional Googler</del><ins>.NET Developer</ins> at Bump
+- <i class="fad fa-fw fa-trophy-alt"></i>MVP for the Umbraco CMS
+- <i class="fab fa-fw fa-meetup"></i>Meetup organiser
 
 <br />
 
 - <i class="fab fa-fw fa-mastodon"></i>[**@joe**@umbracocommunity.social](https://umbracocommunity.social/@joe)
-- <i class="fab fa-fw fa-discord"></i>**glombek**
 - <i class="fad fa-fw fa-globe"></i>[www.**joe.gl**](https://joe.gl/ombek)
 
 ---
-
 <!--
 _class: invert
 _footer: Emma Burstow on Umbraco collaboration: [go.joe.gl/yt-collab-joe-paul](https://go.joe.gl/yt-collab-joe-paul)
 -->
 
 ## We're not **competitors**, we're a **community**
+
+> It's not hippie stuff, it's actually logic
 
 ![bg right:45% Joe and Paul Seal sat at a table with Paul on his laptop. Joe is smiling at the camera.](images/joe-and-paul.jpg)
 
@@ -101,7 +101,7 @@ So we shouldn't be afraid to ask for help, and to offer our expertise to others.
 
 ---
 
-## How can I **ask for help** from the community?
+## How can I **ask for help**?
 ![bg A child offering a helping hand to their younger sibling, playing in the woods](images/annie-spratt-9VpI3gQ1iUo-unsplash.jpg)
 
 <!--
@@ -118,9 +118,8 @@ _footer: 'Photo by <a href="https://unsplash.com/@anniespratt?utm_content=credit
 
 * <i class="fa-fw fad fa-books"></i>Documentation
 * <i class="fa-fw fab fa-youtube"></i>YouTube
-  **CodeSharePaul**, talk recordings, etc
+  Demos, tutorials, talk recordings, etc
 * <i class="fa-fw fad fa-blog"></i>Blog posts
-  Personal blog, **Skrift**, etc
 * <i class="fa-fw fad fa-code"></i>Source code
 * <i class="fa-fw fad fa-question-square"></i>Existing answers to other people's questions 
 
@@ -131,14 +130,15 @@ _footer: 'Photo by <a href="https://unsplash.com/@anniespratt?utm_content=credit
 
 ---
 
-#### So you need to ask for help?
+#### So you need to **ask for help**?
 If you can't find the answer you're looking for, it's time to ask for help.
 
 * <i class="fa-fw fab fa-stack-overflow"></i>StackOverflow
 * <i class="fa-fw fab fa-github"></i>Github?
-* <i class="fa-fw fab fa-umbraco"></i>Umbraco Forum
-* <i class="fa-fw fab fa-discord"></i>Discord
-* <i class="fa-fw fab fa-mastodon"></i>Mastodon/X/Facebook
+* <i class="fa-fw fas fa-hands-helping"></i>Specialised communities
+  What communities are you a part of? Forums, Discord, Slack, etc
+* <i class="fa-fw fab fa-mastodon"></i>Social media
+  Mastodon/X/Reddit/etc
 
 <!--
 StackOverflow - good for more generic development questions
@@ -150,46 +150,7 @@ Mastodon/X/Facebook
 
 ---
 
-<!--
-_header: '⚠️ Shameless Mastodon Plug'
--->
-
-<!--
-Shameless Mastodon Plug
-
-There's a strong contingent of the Umbraco Community now using **Mastodon** in place of Twitter/X.
-
-94 active users as of yesterday
-+ users on other servers
-
-Already on masto? Directory
-
-Want to join the community masto? Link
--->
-
-![bg right:40% Digital art of a unicorn floating in space with a colourful galaxy behind](images/fediverse-unicorn.jpeg)
-
-### Umbraco Community on Mastodon
-
-- <i class="fad fa-fw fa-users"></i>**98** active users
-- <i class="fad fa-fw fa-search"></i>[**umbracocommunity.social**/directory](https://umbracocommunity.social/directory)
-- <i class="fad fa-fw fa-sign-in"></i>[**umbracocommunity.social**/auth/sign_up](https://umbracocommunity.social/auth/sign_up)
-- &nbsp;
-- <i class="fab fa-fw fa-mastodon"></i>Find me: [umbracocommunity.social/**@joe**](https://umbracocommunity.social/@joe)
-- &nbsp;
-- <i class="fad fa-fw fa-newspaper"></i> [**joe.gl**/umbraco-fedi](https://joe.gl/ombek/blog/umbraco-in-the-fediverse/)
----
-<!-- _class: invert -->
-
-<iframe src="https://umbracocommunity.social/@umbracospark/111885245095461269/embed" class="mastodon-embed" style="max-width: 65%; margin: auto; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://umbracocommunity.social/embed.js" async="async"></script>
-
-<!--
-_footer: '</ Shameless Mastodon Plug>'
--->
-
----
-
-### *How* to ask for help
+### *How* to **ask for help**
 
 How can we ask for help in a way that's most likely to get the best possible answer?
 
@@ -268,13 +229,13 @@ Some questions lend themselves to specific environments.
 
 * <i class="fa-fw fad fa-comments-alt"></i>Vague or conceptual question, hand holding
   * > How might I go about implementing a...?
-  * Suited to a chat format, like Discord
+  * Suited to a chat format, like Discord or Slack
 * <i class="fa-fw fad fa-poll"></i>Opinionated or niche question
   * > Which is more performant...?
   * Get a quorum by asking on social media
 * <i class="fa-fw fad fa-align-left"></i>Technical or specific question
   * > I'm trying to do this by ... but I'm getting an error...
-  * A forum might be better suited, Our Umbraco or StackOverflow
+  * A forum or StackOverflow might be better suited
 
 <!--
 
@@ -305,14 +266,14 @@ Reproducible example: Provided Umbraco version, media picker version, exact setu
 
 ---
 
-> Happy Monday!
+<!-- > Happy Monday!
 > In the backoffice (v10) I have a block list editor with image rows. That image row has an Image Media Picker, with the alias "image". I would like to show the name of that image in the block list editor's label for that row.
 > I have tried label values such as Image: `{{ image.name }}` and `Image: {{ image }}` but to no joy. Fields such as "caption" can be accessed happily though `{{ caption }}`, the problem arises because image is an Umbraco.MediaPicker3 and I'm trying to access the name of that specific piece of picked media (3).
 > I have scoured @Joe Glombek's EXCELLENT [blog post](https://joe.gl/ombek/blog/umbraco-angularjs-filter-cheat-sheet) but alas I am without results.
 > Please do consider helping a boy out on a cold, autumnal Monday morning.
 > TIA!
 
----
+--- -->
 
 ## Improvable question
 
@@ -369,7 +330,7 @@ AI has been scouring the internet looking at _our_ programs and _our_ code sampl
 
 ### AI tooling
 
-- <i class="fa-fw fad fa-bolt"></i>OpenAI ChatGPT
+- <i class="fa-fw fad fa-bolt"></i>ChatGPT (OpenAI or Bing)
 - <i class="fa-fw fab fa-github"></i>Github Copilot <small><i class="fad fa-badge-dollar"></i></small>
 - <i class="fa-fw fad fa-sparkles"></i>Google Gemini
 
@@ -432,9 +393,8 @@ You know what AI is also good at? Generating pictures of rubber ducks in an offi
 
 * <i class="fa-fw fad fa-tachometer-alt-slowest"></i>Poor understanding of performance
 * <i class="fa-fw fad fa-sparkles"></i>Understanding versions
-  - Old Umbraco vs Umbraco 9+
-  - `WebClient` vs `HttpClient`
-  - Which type of controller you're using 
+  - .NET Framework vs .NET "Core"
+  - Angular vs AngularJS
 * <i class="fa-fw fad fa-sync-alt"></i>Often inverts boolean logic?!
 * <i class="fa-fw fad fa-edit"></i>Can struggle with modifications
   > Write me a regular expression for international phone numbers
@@ -810,13 +770,12 @@ We'd all have a better idea of how to modify the previous example to, for exampl
 
 <!-- _class: invert -->
 
-![bg left Joe speaking on stage at CodeGarden](images/me.jpg)
+![bg left:45% Joe speaking on stage at CodeGarden](images/me.jpg)
 
 ## Thank you
 
 - <i class="fab fa-fw fa-mastodon"></i>[**@joe**@umbracocommunity.social](https://umbracocommunity.social/@joe)
-- <i class="fab fa-fw fa-discord"></i>**glombek**
 - <i class="fad fa-fw fa-globe"></i>[www.**joe.gl**](https://joe.gl/ombek)
 
 Slides:
-- <i class="fad fa-fw fa-presentation"></i>[notacu.lt/slides/**copy-paste**](https://slides.joe.gl/how-to-copy-and-paste/)
+- <i class="fad fa-fw fa-presentation"></i>[slides.joe.gl/**how-to-copy-and-paste**](https://slides.joe.gl/how-to-copy-and-paste/)
